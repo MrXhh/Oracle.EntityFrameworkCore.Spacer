@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>Oracle.EntityFrameworkCore.Spacer</AssemblyName>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>Latest</LangVersion>
+		<RootNamespace>Oracle.EntityFrameworkCore</RootNamespace>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Oracle.EntityFrameworkCore.Spacer</PackageId>
+		<PackageTags>Oracle ODP.NET ODP Entity Framework Core EFCore EF database DB Spacer</PackageTags>
+		<PackageVersion>219.80.0-Preview.1</PackageVersion>
+		<Authors>MrXhh</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>Copyright 2020</Copyright>
+		<PackageProjectUrl>https://github.com/MrXhh/Oracle.EntityFrameworkCore.Spacer</PackageProjectUrl>
+		<packageDescription>OracleEFCore驱动垫片，处理代码中写死的双引号</packageDescription>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile LinkBase="JetBrains.Annotations" Include="..\Shared\JetBrains.Annotations\**" />
+		<Compile LinkBase="Utilities" Include="..\Shared\Utilities\**" />
+		<Compile LinkBase="Microsoft\CodeAnalysis" Include="..\Shared\Microsoft\CodeAnalysis\**" />
+		<Compile LinkBase="System" Include="..\Shared\System\**" />
+		<Compile Include="..\Shared\ConfigHelper.cs" />
+		<Compile Include="..\Shared\OracleTraceClassName.cs" />
+		<Compile Include="..\Shared\OracleTraceFuncName.cs" />
+		<Compile Include="..\Shared\OracleTraceTag.cs" />
+		<Compile Include="..\Shared\Trace.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Oracle.EntityFrameworkCore" Version="[2.19.80, 2.19.81)" />
+	</ItemGroup>
+
+</Project>

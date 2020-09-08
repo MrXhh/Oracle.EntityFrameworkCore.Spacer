@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>Oracle.EntityFrameworkCore.Extensions</AssemblyName>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>Latest</LangVersion>
+		<RootNamespace>Oracle.EntityFrameworkCore</RootNamespace>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Oracle.EntityFrameworkCore.Extensions</PackageId>
+		<PackageTags>Oracle ODP.NET ODP Entity Framework Core EFCore EF database DB Extension</PackageTags>
+		<PackageVersion>219.80.0-Preview.1</PackageVersion>
+		<Authors>MrXhh</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Copyright>Copyright 2020</Copyright>
+		<PackageProjectUrl>https://github.com/MrXhh/Oracle.EntityFrameworkCore.Spacer</PackageProjectUrl>
+		<packageDescription>OracleEFCore驱动创建对象大小写问题，可配置是否需要大小写</packageDescription>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile LinkBase="JetBrains.Annotations" Include="..\Shared\JetBrains.Annotations\**" />
+		<Compile LinkBase="Utilities" Include="..\Shared\Utilities\**" />
+		<Compile LinkBase="Microsoft\CodeAnalysis" Include="..\Shared\Microsoft\CodeAnalysis\**" />
+		<Compile LinkBase="System" Include="..\Shared\System\**" />
+		<Compile Include="..\Shared\ConfigHelper.cs" />
+		<Compile Include="..\Shared\OracleTraceClassName.cs" />
+		<Compile Include="..\Shared\OracleTraceFuncName.cs" />
+		<Compile Include="..\Shared\OracleTraceTag.cs" />
+		<Compile Include="..\Shared\Trace.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Oracle.EntityFrameworkCore.Spacer" Version="[219.80.0-Preview.1, 219.81.0-Alpha)" />
+	</ItemGroup>
+
+</Project>
