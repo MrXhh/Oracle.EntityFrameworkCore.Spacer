@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oracle.EntityFrameworkCore.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oracle.EntityFrameworkCore.Extensions", "src\Oracle.EntityFrameworkCore.Extensions\Oracle.EntityFrameworkCore.Extensions.csproj", "{84775863-6509-4D9D-BEFD-448C6A1498C9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_Tests", "tests\ConsoleApp_Tests\ConsoleApp_Tests.csproj", "{DD7C2702-5978-4B49-B837-F51B21E5FDF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{84775863-6509-4D9D-BEFD-448C6A1498C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84775863-6509-4D9D-BEFD-448C6A1498C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84775863-6509-4D9D-BEFD-448C6A1498C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7C2702-5978-4B49-B837-F51B21E5FDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7C2702-5978-4B49-B837-F51B21E5FDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7C2702-5978-4B49-B837-F51B21E5FDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7C2702-5978-4B49-B837-F51B21E5FDF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{504D40F8-2308-4829-A0F0-EDCBE0A98CEB} = {A15BF8FA-9C8B-4D58-8C46-B973B8D376F5}
 		{84775863-6509-4D9D-BEFD-448C6A1498C9} = {A15BF8FA-9C8B-4D58-8C46-B973B8D376F5}
+		{DD7C2702-5978-4B49-B837-F51B21E5FDF8} = {53759ABB-41BF-48A3-8626-9E736672A35E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28CF568B-07E5-42B9-A6A0-E4775C37E0A6}
