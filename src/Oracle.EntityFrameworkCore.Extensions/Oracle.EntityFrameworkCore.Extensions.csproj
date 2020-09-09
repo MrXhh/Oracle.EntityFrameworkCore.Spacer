@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>Oracle.EntityFrameworkCore.Extensions</PackageId>
+		<PackageId>Xhh.Oracle.EntityFrameworkCore.Extensions</PackageId>
 		<PackageTags>Oracle ODP.NET ODP Entity Framework Core EFCore EF database DB Extension</PackageTags>
 		<PackageVersion>219.80.0-Preview.1</PackageVersion>
 		<Authors>MrXhh</Authors>

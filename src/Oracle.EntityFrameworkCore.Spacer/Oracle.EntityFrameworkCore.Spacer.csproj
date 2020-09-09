@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>Oracle.EntityFrameworkCore.Spacer</PackageId>
+		<PackageId>Xhh.Oracle.EntityFrameworkCore.Spacer</PackageId>
 		<PackageTags>Oracle ODP.NET ODP Entity Framework Core EFCore EF database DB Spacer</PackageTags>
 		<PackageVersion>219.80.0-Preview.1</PackageVersion>
 		<Authors>MrXhh</Authors>
